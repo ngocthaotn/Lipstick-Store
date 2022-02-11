@@ -1,0 +1,199 @@
+
+.clearfix{
+	overflow:hidden;
+}
+
+div.header > img{
+	width:100%;
+}
+div.header > div.controls{
+	line-height:120px;
+	margin:0 auto;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;	
+}
+.clear{
+	overflow:hidden;
+	clear:left;	
+}
+/* CSS MENU */
+div.menu{
+	
+	width:100%;
+	
+}
+div.menu > ul{
+	margin:0;
+	width:100%;
+	padding-left:10px;
+	background-color:#FFF;
+}
+div.menu > ul > li{
+	float:left;	
+	text-align:center;
+	min-width:100px;
+
+}
+div.menu > ul > li > a{
+	padding:20px 15px;
+	color:#900;
+	display:block;
+}
+div.menu > ul > li > a:hover{
+	background-color:#F9F9F9;	
+}
+ul.subcontent{
+	visibility:hidden;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	background-color:#F8F8F8;
+	opacity:0;
+	transition: visibility 1s, opacity .5s;
+}
+li.submenu:hover ul.subcontent{
+	visibility:visible;
+	opacity:1;
+}
+ul.subcontent > li > a{
+	color:#900;
+	display:block;
+	padding:10px 15px;	
+}
+ul.subcontent > li > a:hover{
+	background-color:#EEEEEE ;	
+}
+div.cart > a > img{
+	width:20px;
+	padding:2.5px 5px;
+	float:right;
+	
+}
+div.cart{
+	padding:10px 15px;	
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+div > h1{
+	
+	font-size:45px;
+	text-align:left;
+	color:#d6304b;
+}
+div.table>img{
+	float:left;
+	width:45%;
+	padding-right:20px;
+	
+}
+div.font{
+	font-size:23px;
+}
+span > del{
+	
+	font-size:20px;
+	color:#666;	
+}
+span.underline > strong {
+	font-size:24px;
+}
+span.red {
+	font-size:18px;
+	color:#d6304b;
+}
+.underline {
+	border-bottom:1px solid #333333;
+}
+span.border >input {
+	text-align:center;
+	width:90px;
+	
+}
+.button{
+	background-color:#363637;
+	color:#d6304b;
+    border:none;
+    padding: 10px 20px;
+    text-align: center;
+	text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+    margin: 10px 2px;
+	cursor: pointer;
+}
+.bold{
+	font-weight:bold;
+}
+.size{
+	font-size:19px;
+}
+h2, h4 {
+	margin-bottom: 0px;
+}
+span.indent {
+	color:#d6304b;
+}
+/*foot*/
+div.tfoot{
+	padding:30px 10px;
+	background-color:#F9F9F9;
+	margin: 80px 1px 0px;
+	
+}
+div.align > div{
+	float:left;	
+	margin:10px 30px;
+	width:20%;
+	text-align:center;
+}
+div.align > div > img{
+	width:50px;	
+	margin:0 auto;
+}
+.linkHover > a:hover{
+	color:#F00;
+}
+div.footer{
+	background-color:#A8A8A8;
+	width:100%;
+	background-color:#A8A8A8;
+	color:#FFF;
+	padding:5px 0px;
+	overflow:hidden;
+}
+div.footer > span {
+	animation:move 40s infinite;
+	position:relative;
+}
+.lentop {
+	display:none; 
+	bottom:35px; 
+	right: 10px; 
+	cursor: pointer;  
+	position: fixed; 
+	z-index: 1000;
+}
+.lentop div {
+	background:crimson; 
+	border:2px solid #fff; 
+	border-radius:45px; 
+	padding:11px 12.5px; 
+	box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.3)
+}
+.lentop img {
+	width:16px; 
+	height:16px;
+}
+
+@keyframes move {
+	from {left:0}
+	to {left:100%}
+}
+
+

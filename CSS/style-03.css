@@ -1,0 +1,154 @@
+
+.clearfix{
+	overflow:hidden;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.header > img{
+	width:100%;
+}
+
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;	
+}
+div.menu{
+	
+	width:100%;
+	
+}
+div.menu > ul{
+	margin:0;
+	width:100%;
+	padding-left:10px;
+	background-color:#FFF;
+}
+div.menu > ul > li{
+	float:left;	
+	text-align:center;
+	min-width:100px;
+
+}
+div.menu > ul > li > a{
+	padding:20px 15px;
+	color:#900;
+	display:block;
+}
+div.menu > ul > li > a:hover{
+	background-color:#F9F9F9;	
+}
+ul.subcontent{
+	visibility:hidden;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	background-color:#F8F8F8;
+	opacity:0;
+	transition: visibility 1s, opacity .5s;
+}
+li.submenu:hover ul.subcontent{
+	visibility:visible;
+	opacity:1;
+}
+ul.subcontent > li > a{
+	color:#900;
+	display:block;
+	padding:10px 15px;	
+}
+ul.subcontent > li > a:hover{
+	background-color:#EEEEEE ;	
+}
+div.cart > a > img{
+	width:20px;
+	padding:2.5px 5px;
+	float:right;
+	
+}
+div.cart{
+	padding:10px 15px;	
+}
+.input{
+	text-align:center;
+}
+.input > input {
+	padding:15px ;
+	margin:8px;
+	width:500px;
+	border:none;
+	background-color:#F3F3F3;
+}
+.size {
+	font-size:13px;
+	color:#000;
+}
+.border{
+	background-color:#FFF;
+	color:#000000;
+    border:double;
+	border-color:#C00;
+    padding: 10px 10px;
+    text-align: center;
+	text-decoration:none;
+    font-size:14px;
+	margin:10px;
+}
+.hover {
+	text-align:center;
+}
+.hover >a:hover{
+	color:red;
+}
+.hover > input[type=button]:hover{
+	background-color:#910000;
+	color:#FFF;
+	border-color:#FFF;
+	font-style:italic;
+	
+}
+.linkHover > a:hover{
+	color:#F00;
+}
+
+
+div.tfoot{
+	padding:30px 10px;
+	background-color:#F9F9F9;
+	margin: 80px 1px 0px;
+	
+}
+div.align > div{
+	float:left;	
+	margin:10px 30px;
+	width:20%;
+	text-align:center;
+}
+div.align > div > img{
+	width:50px;	
+	margin:0 auto;
+}
+div.footer{
+	background-color:#A8A8A8;
+	width:100%;
+	background-color:#A8A8A8;
+	color:#FFF;
+	padding:5px 0px;
+	overflow:hidden;
+}
+div.footer > span {
+	animation:move 40s infinite;
+	position:relative;
+}
+
+@keyframes move {
+	from {left:0}
+	to {left:100%}
+}
+
+
+ 
+
+
